@@ -1,6 +1,5 @@
-package com.remkohde.dev.liberty.api;
+package com.lma.dev.api;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
