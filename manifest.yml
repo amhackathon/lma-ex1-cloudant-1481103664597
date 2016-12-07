@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: lma-ex1-cloudant
+  host: lma-ex1-cloudant
+  disk_quota: 1024M
+  services:
+  - lma-ex1-cloudant-cloudantNoSQLDB
